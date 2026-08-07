@@ -1,10 +1,10 @@
 class Whirr < Formula
   desc "A whirring macOS system dashboard for your terminal"
   homepage "https://github.com/scoobynko/whirr"
-  version "0.3.7"
+  version "0.3.8"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/scoobynko/whirr/releases/download/v0.3.7/whirr-aarch64-apple-darwin.tar.xz"
-    sha256 "6d868de0f2aa6a02498070ff8fc742810e2d75ef226086fb229d376c75a72168"
+    url "https://github.com/scoobynko/whirr/releases/download/v0.3.8/whirr-aarch64-apple-darwin.tar.xz"
+    sha256 "ec38a97062c987da790f69e11486bb1abc6d197a0577d1d73744b3e30c43cb91"
   end
   license "MIT"
 
